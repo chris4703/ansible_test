@@ -11,3 +11,4 @@
   - name: install docker-ce package
     apt:
       name: docker-ce
+      state: latest
